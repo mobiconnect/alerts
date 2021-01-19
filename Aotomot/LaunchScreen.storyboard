@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage-iPhone" translatesAutoresizingMaskIntoConstraints="NO" id="F9f-Vu-ZiH">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RIq-jn-PGx" userLabel="LogoView">
+                                <rect key="frame" x="101" y="314.5" width="173" height="38"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="client-logo-big" translatesAutoresizingMaskIntoConstraints="NO" id="BYo-Pt-jOP">
+                                        <rect key="frame" x="0.0" y="0.0" width="173" height="38"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="BYo-Pt-jOP" firstAttribute="top" secondItem="RIq-jn-PGx" secondAttribute="top" id="KZI-Zk-lJU"/>
+                                    <constraint firstItem="BYo-Pt-jOP" firstAttribute="leading" secondItem="RIq-jn-PGx" secondAttribute="leading" id="cKa-44-dyB"/>
+                                    <constraint firstAttribute="bottom" secondItem="BYo-Pt-jOP" secondAttribute="bottom" id="gAp-6G-Dqe"/>
+                                    <constraint firstAttribute="trailing" secondItem="BYo-Pt-jOP" secondAttribute="trailing" id="phA-P8-5Jn"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RIq-jn-PGx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9iW-np-FWQ"/>
+                            <constraint firstItem="RIq-jn-PGx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="SUo-wz-lcb"/>
+                            <constraint firstItem="F9f-Vu-ZiH" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="cEU-lJ-9ID"/>
+                            <constraint firstItem="F9f-Vu-ZiH" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="feY-mU-Ma9"/>
+                            <constraint firstItem="F9f-Vu-ZiH" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="qME-AC-bL0"/>
+                            <constraint firstItem="F9f-Vu-ZiH" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="qsq-yi-IW2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="client-logo-big" width="173" height="38"/>
+        <image name="launchImage-iPhone" width="375" height="667"/>
+    </resources>
+</document>

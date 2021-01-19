@@ -1,0 +1,6 @@
+framework module Pods_Aotomot_Alerts {
+  umbrella header "Pods-Aotomot_Alerts-umbrella.h"
+
+  export *
+  module * { export * }
+}

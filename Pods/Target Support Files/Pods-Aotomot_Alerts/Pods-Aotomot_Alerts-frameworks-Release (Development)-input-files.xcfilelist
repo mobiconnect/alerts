@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-Aotomot_Alerts/Pods-Aotomot_Alerts-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/Spring/Spring.framework
+${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework

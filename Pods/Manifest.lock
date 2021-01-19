@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.7.2)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SnapKit (5.0.0)
+  - Spring (1.0.5)
+  - ViewAnimator (2.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - SDCycleScrollView
+  - SDWebImage
+  - SnapKit
+  - Spring
+  - ViewAnimator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - SDCycleScrollView
+    - SDWebImage
+    - SnapKit
+    - Spring
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  Spring: 17901566c8ecf3a1327902b940406c64512f9bb1
+  ViewAnimator: 43c31539508d995ea2c5e98338211f7c009b358f
+
+PODFILE CHECKSUM: 692564b7c3e326ec750c5697f3428451c0365d16
+
+COCOAPODS: 1.7.5
